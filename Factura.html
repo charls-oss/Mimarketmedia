@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factura</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+	/>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="disenos.css">
+    <link rel="stylesheet" href="Factura.css">
+   
+</head>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="logo2.png" alt="Mimarketmedi@">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="InicioSesion.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Ventas.html">Ventas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Compras.html">Compras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="VistaProductos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="VistaInventario.html">Inventario</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="VistaClientes.html">Clientes</a>        
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Factura.html">Factura</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Domicilios.html">Domicilios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="VistaProveedores.html">Proveedores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Domicilios.html">Indicadores</a>
+          </li>
+          <li class="nav-item">
+              <form class="d-flex" role="Buscar"> <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar"> <button class="btn btn-outline-success " type="submit">Buscar</button>
+          </li>
+      </div>
+    </div>
+  </nav>
+</form>
+ 
+</body> 
+<section class="container mt-4">
+        <h1 class="display-4 text-danger">FACTURA </h1>
+        <hr />
+        <main>
+          <section class="row">
+            <div class="col">
+              <div class="card">
+                <div class="card-header">
+                  <h3 class="card-title text-center">Mimarketmedi@</h3>
+                 </div>
+                  </div class="card-body">
+                     <form class="row" id="formDetalle">
+                      <div class="form-group col-md-2">
+                        <label for="">Razón social</label>
+                        <input type="text" class="form-control" placeholder=""
+                        id="InputRazonSocial"/>
+
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="">RUT</label>
+                        <input type="text" class="form-control" placeholder="" id="RUT"
+                        id="InputRut"/>
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="">Dirección</label>
+                        <input type="text" class="form-control" placeholder=""
+                        id="InputDirección"/>
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="">Registro mercantil</label>
+                        <input type="text" class="form-control" placeholder=""
+                        id ="inputR.mercantil"/>
+                      
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="">email:</label>
+                        <input type="email" class="form-control" placeholder=""
+                        id="InputEmail"/>
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="">Número transacción:</label>
+                        <input type="text" class="form-control" placeholder="002"
+                        id =" InputNro"/>
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="">Fecha:</label>
+                        <input type="date" class="form-control"
+                        id="InputFecha"/>
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="">Teléfono:</label>
+                        <input type="number" class="form-control"
+                        id="InputFecha"/>
+                        </div>
+                        <div class="form-group col-md-2">
+                          <label for="">Forma de pago</label>
+                          <input type="text" class="form-control"
+                          id="InputFecha"/>
+                          </div>
+                      <section class="row mt-4">
+                        <div class="col">
+                          <div class="card">
+                            <div class="card-body ">
+                              <div class="row">
+                                <div class="form-group col-md-2"><label for="">Cantidad</label><input type="number" class="form-control"
+                                  id="InputCantidad"/>
+                                  
+                                </div>
+                                <div class="form-group col-md-2"><label for="">Descripción</label>
+                                  <select id="selectDescripcion" class="form-control">
+                                    <option value="0">---seleccione---</option>
+                                    <option value="1">Producto 1</option>
+                                    <option value="2">Producto 2</option>
+                                    <option value="3">Producto 3</option>
+                                    <option value="4">Producto 4</option>
+                                    <option value="5">Producto 5</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-2"><label for="">P.Unitario</label><input type="text" class="form-control" id ="InputPrecioUnitario">
+                                </div>
+                                <div class="form-group col-md-2"><label for="">Sin IVA</label><input type="text" class="form-control" id ="InputSinIva">
+                                </div>
+                                <div class="form-group col-md-1"><label for="">IVA</label><input type="text" class="form-control" id ="InputIva">
+                                </div>
+                                <div class="form-group col-md-1"><label for="">Sub-total</label><input type="text" class="form-control" id ="InputSubTotal">
+                                </div>
+                                <div class="form-group col-md-2 button-addition ">
+                                  <button class="btn btn-primary"  type="submit">Agregar</button>
+                                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        </section>
+         <section class="row mt-4">
+          <div class="col 12">
+
+          </div>
+         </section>
+        </section class="row">
+
+
+          <table class="table text-center">
+            <thead>
+              <tr class="table">
+                <th>Cantidad </th>
+                <th> Descripción</th>
+                <th> P.unitario</th>
+                <th> Sin IVA</th>
+                <th> IVA</th>
+                <th> Sub-total</th>
+                <th> Total otal</th>
+                
+                
+              </tr>
+            </thead>
+          </body>
+          <tr>
+            <td>2</td>
+            <td>1.5lt gaseosas</td>
+            <td>$4500</td>
+            <td>$9000</td>
+            <td>19%</td>
+            <td>$10710</td>
+            <td>
+                <button class="btn btn-danger">Eliminar</button>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>2000gr avena</td>
+            <td>$18000</td>
+            <td>$64000</td>
+            <td>19%</td>
+            <td>76160</td>
+            <td>
+                <button class="btn btn-danger">Eliminar</button>
+            </td>
+            
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Cubeta de huevos</td>
+            <td>14000</td>
+            <td>$28000</td>
+            <td>19%</td>
+            <td>$33320</td>
+            <td>
+                <button class="btn btn-danger">Eliminar </button>
+            </td>
+                
+        </tr>
+        <tr>
+          <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+           <td><b>TOTAL</b>
+          </td>
+          <td>$120190</td>
+          <td>
+              <button class="btn btn-warning text-dark">Calcular </button>
+          </td>
+              
+        <!-- Agregar más filas de productos aquí -->
+  
+</table>
+
+<div class="row mt-3">
+    <div class="col-md-3 py-5">
+        <button class="btn btn-success ">Registrar factura</button>
+    </div>
+    <div class="col-md-3 py-5">
+        <button class="btn btn-primary ">Modificar factura</button>
+    </div>
+    <div class="col-md-3 py-5">
+        <button class="btn btn-warning">Almacenar Factura</button>
+    </div>
+    <div class="col-md-3 py-5">
+      <button class="btn btn-dark">Generar Factura</button>
+  </div>
+</section>
+<footer class="bg-dark bg-primary text-center py-3">
+<div id= "parrafo" class="col-md-12">
+<p>Derechos de autor &copy; 2023 - Mimarketmedi@</p>
+<div class="col-md-12">
+<a  id="quienes"   href="QuienesSomos.html">¿Quienes somos?</a>
+<a  id="contacto" href="Contacto.html">Contacto</a>
+<a  id="preguntas" href="Preguntas.html">Preguntas frecuentes</a>
+<a href="#"><i id="youtube" class="fa-brands fa-youtube"></i></a>
+<a href="#"><i id="facebook" class="fa-brands fa-square-facebook"></i></a>
+<a href="#"><i id="twiter" class="fa-brands fa-square-twitter"></i></a>
+<a href="#"><i id="whatsapp" class="fa-brands fa-whatsapp"></i></a>
+<a href="#"><i id="Instagram" class="fa-brands fa-instragram"></i></a>
+
+</div>
+</div>
+
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+    
+        

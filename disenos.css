@@ -1,0 +1,188 @@
+    
+   #parrafo {
+      color: rgb(246, 253, 247);
+   }
+
+   #creala {
+
+      color: rgb(77, 75, 204);
+   }
+
+   a {
+
+      color:rgb(246, 250, 247);
+   }
+
+   #quienes:hover {
+
+      color:rgb(221, 236, 9);
+   }
+   #contacto:hover {
+
+      color:rgb(221, 236, 9);
+   }
+   #preguntas:hover {
+
+      color:rgb(221, 236, 9);
+   }
+
+   #youtube:hover {
+
+    color: rgb(255, 0, 0);
+    }
+    
+
+   #facebook:hover {
+
+            color:blue
+            
+    }
+    
+
+   #twiter:hover  {
+            color:rgb(77, 9, 202)
+    }
+
+   #instagram:hover  {
+            color:rgb(207, 26, 35)
+    }
+
+   #whatsapp:hover   {
+            color:rgb(60, 184, 11)
+    }
+
+    #vista:hover    {
+
+            color:rgb(240, 10, 10)
+    }
+
+   img {
+            width: 150px;
+    }
+
+   #imagen  {
+            width: 300px;
+           
+   }
+   #piePagina {
+            margin-bottom: 500px;
+   }
+
+   footer div a {
+
+            padding: 60px;
+    }
+    #eliminar {
+         margin-left: 50px;
+   }
+   #button {
+         margin-top: 30px;
+         width: 200px;
+         
+   }
+   #imagens {
+      margin-left: 30px;
+            
+
+   }
+   #girar  {
+      -webkit-transform: rotate(360deg);transform: rotate(360deg);
+   }
+
+   #Editar {
+
+      margin-top: 20px;
+      width: 200px;
+      
+   }
+
+   #Administrar {
+      margin-top: 5px;
+      margin-right: 5px;
+      width: 200px;
+      
+
+   }
+
+   #Ajustes {
+      margin-top: 5px;
+      margin-bottom: 70px;
+      width: 200px;
+      
+   }
+
+   #links {
+      color:rgb(238, 8, 8)
+   }
+   
+   #submit {
+
+      width: 150px;
+   }
+   header {
+    background: rgba(8, 8, 8, 0.7);
+    width: 50%;
+    position: fixed;
+    z-index: 100;
+  }
+  
+
+  .form-register {
+    width: 400px;
+    background:#192025;
+    padding: 5px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+    }
+    .form-register h4 {
+        font-size: 22px;
+        margin-bottom: 40px;
+        padding-left: 80px;
+    }
+    .controls {
+        width: 100%;
+        background: #edeee9;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid #1fc535;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+
+    }
+    .form-register p {
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+    }  
+    
+    .form-register a {
+        color:#dae909;
+        text-decoration: none;
+    } 
+    .form-register a:hover {
+        color:#d30b0b;
+        text-decoration: underline;
+    } 
+    .form-register .botons {
+        width: 94%;
+        background: #0f0f0f;
+        border:none;
+        padding: 12px;
+        color:#dae909;
+        margin: 16px;
+    } 
+
+
+  @media (max-width: 952px)  {
+  
+
+  .ul  {
+    display:block;
+  }
+  
+} 

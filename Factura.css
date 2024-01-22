@@ -1,0 +1,7 @@
+.button-addition {
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: inset;
+}
